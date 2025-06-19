@@ -9,6 +9,7 @@ import MyAppointmentPage from './pages/MyAppointmentPage';
 import DoctorRegisterPage from './pages/DoctorRegisterPage';
 import DoctorDashboardPage from './pages/DoctorDashboardPage';
 import ServiceListPage from './pages/ServiceListPage';
+import AboutPage from './pages/AboutPage';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/doctor-register" element={<DoctorRegisterPage />} />
         <Route path="/doctor-dashboard" element={<DoctorDashboardPage />} />
         <Route path="/services" element={<ServiceListPage />} />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
     </Router>
   );
