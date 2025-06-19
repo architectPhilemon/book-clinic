@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://book-clinic-production.up.railway.app/api',
+  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:5002/api',
 });
 
 export default api;
